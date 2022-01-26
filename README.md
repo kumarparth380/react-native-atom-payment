@@ -11,11 +11,13 @@ npm install react-native-atom-payment
 ## Usage
 
 ```js
-import { multiply } from "react-native-atom-payment";
+import { confirmPayment } from "react-native-atom-payment";
 
 // ...
 
-const result = await multiply(3, 7);
+confirmPayment(txDetails, (error, response)=> {
+    // success/failure handler
+});
 ```
 
 ## Contributing
