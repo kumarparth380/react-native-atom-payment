@@ -1,6 +1,6 @@
 {
   "name": "react-native-atom-payment",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "React Native library for atom payments",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
