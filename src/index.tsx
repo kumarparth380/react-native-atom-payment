@@ -17,7 +17,10 @@ const AtomPayment = NativeModules.AtomPayment
       }
     );
 
-export function confirmPayment(transactionDetail: any, callback: Function): Promise<number> {
+export function confirmPayment(
+  transactionDetail: any,
+  callback: Function
+): Promise<number> {
   return AtomPayment.goForAtomPayment(transactionDetail, callback);
 }
 
